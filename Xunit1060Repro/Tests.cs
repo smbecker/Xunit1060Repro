@@ -9,7 +9,7 @@ namespace Xunit1060Repro
 		public void should_load_latest_version_of_newtonsoft() {
 			var assembly = typeof(Newtonsoft.Json.Linq.JObject).Assembly.Location;
 			Console.WriteLine(assembly);
-			Assert.DoesNotContain(assembly, "dotnet-xunit");
+			Assert.DoesNotContain("dotnet-xunit", assembly);
 		}
 		
 		[Fact]

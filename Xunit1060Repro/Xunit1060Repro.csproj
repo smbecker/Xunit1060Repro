@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp2.0</TargetFramework>
-    <XunitVersion>2.3.0-beta5-build3769</XunitVersion>
+    <XunitVersion>2.4.0-beta1-build3832</XunitVersion>
   </PropertyGroup>
 
   <ItemGroup>
